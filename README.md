@@ -1,7 +1,2 @@
-## Carlos Magno
-
-
-
-### Blog
-[Um blog para meus poemas.](https://carlosmagno.github.io/blog/)
-
+# blog
+ Desenvolvendo um blog para meus poemas e outras postagens
