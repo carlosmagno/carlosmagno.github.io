@@ -11,6 +11,11 @@ body {
 
 }
 
+audio {
+    display: block;
+    width: 500px;
+    background-color: blue;
+}
 h1 {
     display:block;
     text-align: center;
