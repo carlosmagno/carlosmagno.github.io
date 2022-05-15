@@ -1,7 +1,7 @@
 *{
     margin:0;
     padding: 0;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
 body {
@@ -21,16 +21,39 @@ h1 {
     text-align: center;
 }
 
-img {
+.cabecalho #sobre{
+    /* background-color: aliceblue; */
+    color: white;
+    /* width: 100%; */
+}
+.cabecalho ul{
+    
+    margin:10px auto;
+    text-align: left;
+    width: 40%;
+}
+.cabecalho li{
+    margin:5px 0;
+}
+div.cabecalho> img {
 
     display: inline;
-    width: 15%;
+    width: 30%;
     border-radius: 50%;
     margin-top: 1vw;
     border: 3px solid gray;
-     height:auto;
+     /* height:auto; */
 
 }
+div.redes-sociais img{
+    width: 3%;
+    vertical-align: middle;
+}
+/* div.redes-sociais #imgyoutube{
+    width: 3%;
+    height: 3em;
+    
+} */
 
 .principal a {
     display: block;
@@ -43,14 +66,16 @@ img {
 
 }
 
-.lateral a {
+.lateral a, .lateral h4, .lateral h3 {
     display: block;
-    width: 100%;
-    /* padding: 2px 15px ;
-    border-radius: 5px;
-    box-shadow: 1px 2px 5px gray;
-    margin-bottom: 10px; */
-    text-decoration: none;
+    width:auto;
+    padding:0 6px;
+    font-size: 1em;
+}
+
+.lateral a{
+    /* text-decoration: none; */
+    font-size: 1em;
 
 }
 
@@ -89,6 +114,7 @@ div.lateral {
     
     display: none;
     */
+    /* padding:0 15px; */
     float:right;
     margin:0 auto;
     background-color: rgb(255, 255, 255);
@@ -107,7 +133,8 @@ hr {
 }
 
 .lateral>h3 {
-   border-bottom: 1px solid gray;
+/*     
+   border-bottom: 1px solid gray; */
    background-color: rgb(53, 6, 116);
    color: cornsilk;
    border-radius: 5px 5px 0 0; 
@@ -151,6 +178,7 @@ footer{
     }
     .cabecalho{
         width:96%;
+        padding-bottom: 10px;
 
     }
 
@@ -182,14 +210,27 @@ footer{
         border-radius: 5px;
     }
 
-    img {
+    div.cabecalho> img {
         display: inline;
-        width: 20%;
-        border-radius: 50%;
+        width: 40%;
+        /* border-radius: 100%; */
         border: 3px solid gray;
         height:auto;
     
     }
+
+    div.cabecalho ul {
+        width: 70vw;
+        font-size: 0.8em;
+    
+    
+    }
+
+    div.redes-sociais img{
+        width: 5vw;
+        vertical-align: middle;
+    }
+
     footer{
         /* margin-bottom: 0; */
         padding-top:20px;
