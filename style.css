@@ -30,11 +30,13 @@ h1 {
     
     margin:10px auto;
     text-align: left;
-    width: 40%;
+    width: 50%;
 }
-.cabecalho li{
+div.cabecalho li{
     margin:5px 0;
+    list-style-type: none;
 }
+
 div.cabecalho> img {
 
     display: inline;
@@ -219,11 +221,10 @@ footer{
     
     }
 
-    div.cabecalho ul {
+
+    div.cabecalho {
         width: 70vw;
         font-size: 0.8em;
-    
-    
     }
 
     div.redes-sociais img{
