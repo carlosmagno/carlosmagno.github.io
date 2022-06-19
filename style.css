@@ -178,11 +178,7 @@ footer{
         display: none;
         
     }
-    .cabecalho{
-        width:96%;
-        padding-bottom: 10px;
-
-    }
+   
 
     h2 {
         font-size:22px;
@@ -223,10 +219,20 @@ footer{
 
 
     div.cabecalho {
-        width: 70vw;
+        width: 100vw;
         font-size: 0.8em;
+        padding-bottom: 10px;
     }
 
+    /* div#sobre{
+        width: 80vw;
+    } */
+    .cabecalho ul{
+    
+        margin:10px auto;
+        text-align: left;
+        width: 80%;
+    }
     div.redes-sociais img{
         width: 5vw;
         vertical-align: middle;
