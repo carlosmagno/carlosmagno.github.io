@@ -176,7 +176,11 @@ footer{
     }
     div.lateral {
         display: none;
-        
+        width: 100%; 
+    }
+
+    div.principal {
+        width: 100%;
     }
    
 
