@@ -65,7 +65,13 @@ div.redes-sociais img{
     box-shadow: 1px 2px 5px gray;
     margin-bottom: 10px;
     text-decoration: none;
+   
 
+}
+
+.principal p{
+    width: 70%;
+    text-wrap: wrap;
 }
 
 .lateral a, .lateral h4, .lateral h3 {
