@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quiz Bíblico – Ajuda</title>
+    <link rel="stylesheet" href="style.css">
+  <!-- ───────────  ESTILO COMPARTILHADO  ─────────── -->
+  <style>
+
+    h3 {
+      color: #2c3e50;
+    }
+
+    ul {
+      padding-left: 1.2rem;
+    }
+
+    /* ── Estilo especial para o índice ── */
+    ul.index {
+      list-style: none;
+      padding-left: 0;
+    }
+    ul.index li {
+      margin-bottom: 0.35rem;
+    }
+    ul.index li.level-2 {
+      margin-left: 1rem;          /* recuo visual para sub-tópicos */
+    }
+
+    /*  imagens genéricas (opcionais) */
+    img {
+      max-width: 100%;
+      height: auto;
+      margin: 1rem 0;
+      border: 1px solid #ccc;
+    }
+
+    menu>li {
+      display: inline;
+      margin-right: 1rem;
+      background-color: white;
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
+    }
+    #voltahome{
+        background-color: rgb(230, 228, 223);
+        width: 100%;
+        margin: 0 auto;
+        padding: 15px;
+        text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="voltahome"><a href="../">Página Principal do Site</a></div>
+    <!-- ───────────  CABEÇALHO  ─────────── -->
+  <header>
+    <h1>Quiz Bíblico – Ajuda</h1>
+    <p>Dúvidas comuns e instruções básicas de uso</p>
+    <nav>
+        <menu>
+            <li><a href="index.html">Sobre o Quiz</a></li>
+            <li><a href="donwload.html">Download</a></li>
+            <li><a href="ajuda.html">Ajuda</a></li>
+            <li><a href="videos.html">Vídeos</a></li>
+        </menu>
+    </nav>
+  </header>
+
+
+
+  <!-- ───────────  ÍNDICE  ─────────── -->
+  <section id="topo">
+    <h2>Índice da Ajuda</h2>
+    <ul class="index">
+      <!-- Tela Configurações -->
+      <li><a href="#tela-configuracoes">TELA CONFIGURAÇÕES</a></li>
+      <li class="level-2"><a href="#partida">Partida</a></li>
+      <li class="level-2"><a href="#equipes">Equipes</a></li>
+      <li class="level-2"><a href="#categorias">Categorias e Perguntas Disponíveis</a></li>
+      <li class="level-2"><a href="#geral">Geral</a></li>
+      <li class="level-2"><a href="#avisos">Avisos/Status</a></li>
+      <li class="level-2"><a href="#links">Links</a></li>
+
+      <!-- Tela Principal -->
+      <li><a href="#tela-principal">TELA PRINCIPAL</a></li>
+      <li class="level-2"><a href="#play">Botão “Play”</a></li>
+      <li class="level-2"><a href="#tempo">Botão “Tempo”</a></li>
+      <li class="level-2"><a href="#cancelar">Botão “Cancelar”</a></li>
+      <li class="level-2"><a href="#arquivo">Botão “Arquivo”</a></li>
+      <li class="level-2"><a href="#config-principal">Botão “Configurações”</a></li>
+      <li class="level-2"><a href="#respostas">Botões de resposta “A, B, C e D”</a></li>
+
+      <!-- Tela Top 10 -->
+      <li><a href="#tela-top10-score">TELA TOP 10 – SCORE</a></li>
+      <li class="level-2"><a href="#voltar">Botão “Voltar”</a></li>
+      <li class="level-2"><a href="#apagar">Botão “Apagar”</a></li>
+      <li class="level-2"><a href="#config-score">Botão “Configurações”</a></li>
+    </ul>
+  </section>
+
+<!-- ───────────  TELA CONFIGURAÇÕES  ─────────── -->
+<section id="tela-configuracoes">
+    <h2>TELA CONFIGURAÇÕES</h2>
+    <img src="Imagens/Tela Configurações Quiz Bíblico Excel V.1.0.jpg" alt="">
+    <h3 id="partida">Partida</h3>
+    <p>
+        Os campos da primeira rodada são obrigatórios. Selecione uma categoria que tenha perguntas disponíveis.
+        O número de perguntas não pode ser maior do que o de perguntas disponíveis da categoria escolhida. Defina um
+        tempo (máximo 100 segundos) e quantos pontos vão valer as respostas certas.
+    </p>
+
+    <h3 id="equipes">Equipes</h3>
+    <p>
+        Digite o nome de cada equipe e os nomes dos jogadores. O programa vai selecionar na sequência os jogadores,
+        alternando a equipe a cada pergunta.
+    </p>
+
+    <h3 id="categorias">Categorias e Perguntas Disponíveis</h3>
+    <p>No momento só é possível usar as perguntas enviadas pela internet.</p>
+    <ul>
+        <li><strong>Profecias</strong> – Inclui acontecimentos que cumpriram ou cumprirão profecias, entendimentos,
+            significados etc…</li>
+        <li><strong>Pessoas e Lugares</strong> – Inclui nomes de pessoas, povos, cidades, regiões mencionados nos
+            relatos bíblicos.</li>
+        <li><strong>Ciência e a Bíblia</strong> – Fatos relacionados entre a Bíblia e a ciência.</li>
+        <li><strong>História da Bíblia</strong> – Fatos e curiosidades relacionadas com toda a trajetória da Bíblia
+            Sagrada até os nossos dias. Boas fontes para esta categoria de perguntas podem ser os livros “A Bíblia -
+            Palavra de Deus ou de homens?” ou “Toda a Escritura é inspirada por Deus”.</li>
+        <li><strong>Para crianças</strong> – Ainda não disponível no formulário online, visto o objetivo inicial ser
+            testar o jogo. Mas como diz o nome seriam perguntas com um nível mais simples de dificuldade, extraídas de
+            publicações geralmente usadas para crianças.</li>
+        <li><strong>Diversos</strong> – Tudo o que não se aplicar especificamente nas demais categorias.</li>
+    </ul>
+
+    <h3 id="geral">Geral</h3>
+    <p>
+        Nesta área você pode ativar ou desativar a voz virtual do Windows. Inserindo seu e-mail de registro,
+        após atualizar o jogo, se você já tiver enviado perguntas e tiver se registrado aparecerá a quantidade de
+        perguntas que você já enviou. Clicando no botão “ALTERAR ORDEM-PERGUNTAS” a ordem das perguntas será alterada
+        aleatoriamente.
+    </p>
+    <p><strong>ATENÇÃO:</strong> Sempre que você atualizar a planilha ela baixa as perguntas na ordem original em que elas
+        foram enviadas.</p>
+
+    <h3 id="avisos">Avisos/Status</h3>
+    <p>
+        Exibe as informações de orientação (1) para a configuração inicial, enquanto o usuário não preencher os
+        campos mínimos e (2) após o usuário clicar no botão “Atualizar”, informando o resultado da atualização.
+    </p>
+
+    <h3 id="links">Links</h3>
+    <ul>
+        <li><strong>Registrar e-mail e usuário</strong> – A ser realizado apenas uma vez.</li>
+        <li><strong>Entrar em contato</strong> – Para relatar algum problema ou sugestão.</li>
+        <li><strong>[Removido do jogo] Enviar perguntas</strong> – Contribua com o projeto enviando perguntas.</li>
+        <li><strong>Arquivo de ajuda</strong> – Arquivo de texto na web com instruções de uso do jogo.</li>
+    </ul>
+    <p><a href="#topo">Voltar ao índice</a></p>
+</section>
+
+<!-- ───────────  TELA PRINCIPAL  ─────────── -->
+<section id="tela-principal">
+    <h2>TELA PRINCIPAL</h2>
+    <img src="Imagens/Tela Principal Quiz Bíblico Excel VBA V.1.0.jpg" alt="">
+    <h3 id="play">Botão “Play”</h3>
+    <p>
+        Inicia a partida apresentando as perguntas conforme o que o usuário configurou anteriormente. Quando a voz
+        virtual está ativada ele não só apresenta no painel a pergunta e as alternativas mas também faz a leitura das
+        mesmas.
+    </p>
+
+    <h3 id="tempo">Botão “Tempo”</h3>
+    <p>
+        Deve ser usado quando a voz virtual está desativada. Inicia o contador regressivo do tempo configurado para a
+        rodada.
+    </p>
+
+    <h3 id="cancelar">Botão “Cancelar”</h3>
+    <p>
+        Cancela a partida atual, limpando as informações na tela principal do jogo. Mas não exclui as informações da
+        página “Configurações”. Necessita confirmação para prosseguir, visto que esta ação não pode ser desfeita.
+    </p>
+
+    <h3 id="arquivo">Botão “Arquivo”</h3>
+    <p>Acessa o Score Top 10, que armazena as informações dos 10 últimos melhores resultados de partidas.</p>
+
+    <h3 id="config-principal">Botão “Configurações”</h3>
+    <p>Acessa a página “Configurações”.</p>
+
+    <h3 id="respostas">Botões de resposta “A, B, C e D”</h3>
+    <p>
+        Aguarde a finalização do contador de tempo acionada pelo botão ou a voz virtual (se estiver ativada) terminar a
+        contagem do tempo. Após isso clique no botão correspondente para selecionar sua resposta. As respostas certas
+        são destacadas em verde e as erradas em vermelho.
+    </p>
+    <p><a href="#topo">Voltar ao índice</a></p>
+</section>
+
+<!-- ───────────  TELA TOP 10 – SCORE  ─────────── -->
+<section id="tela-top10-score">
+    <h2>TELA TOP 10 – SCORE</h2>
+    <img src="Imagens/Tela Top 10 Score Quiz Bíblico Excel V.1.0.jpg" alt="">
+    <p>
+        O Score Top 10 armazena as informações dos 10 últimos melhores resultados de partidas. Ele vai substituindo os
+        resultados antigos pelos mais novos, levando em conta também a pontuação.
+    </p>
+
+    <h3 id="voltar">Botão “Voltar”</h3>
+    <p>Acessa a tela principal do jogo.</p>
+
+    <h3 id="apagar">Botão “Apagar”</h3>
+    <p>
+        Exclui o histórico do Score. Necessita confirmação para prosseguir, visto que esta ação não pode ser desfeita.
+    </p>
+
+    <h3 id="config-score">Botão “Configurações”</h3>
+    <p>Acessa a página “Configurações”.</p>
+    <p><a href="#topo">Voltar ao índice</a></p>
+</section>
+
+  <!-- ───────────  RODAPÉ  ─────────── -->
+  <footer>
+       Copyright © | <a href="https://github.com/CARLOSMAGNO" target="blank">Carlos Magno Bandeira dos Santos</a> | Todos os direitos reservados.
+  </footer>
+</body>
+</html>
