@@ -69,3 +69,19 @@ body {
     a:hover {
       text-decoration: underline;
     }
+
+        menu>li {
+      display: inline-block;
+      margin-right: 1rem;
+      background-color: white;
+      padding: 0.5rem 1rem;
+      margin: 0.5rem 0;
+      border-radius: 8px;
+    }
+    #voltahome{
+        background-color: rgb(230, 228, 223);
+        width: 100%;
+        margin: 0 auto;
+        padding: 15px;
+        text-align: center;
+    }
